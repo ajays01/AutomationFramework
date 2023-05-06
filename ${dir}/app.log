@@ -1,0 +1,58 @@
+2023-05-06 09:28:27,778 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 09:28:28,484 - GoogleBase - INFO - All excel files are initialized successfully
+2023-05-06 09:28:28,591 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 09:28:28,631 - TSL_Google - INFO - TSL_Google : Execution Started
+2023-05-06 09:28:28,978 - TSL_Google - INFO - Test case starts here
+2023-05-06 09:28:29,050 - SuiteBase - INFO - Entered loadwebbrowser
+2023-05-06 09:28:29,119 - TSL_Google - INFO - TSL_Google :Reporting test data set line 1 as FAIL in excel.
+2023-05-06 09:31:03,219 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 09:31:03,729 - GoogleBase - INFO - All excel files are initialized successfully
+2023-05-06 09:31:03,810 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 09:31:03,843 - TSL_Google - INFO - TSL_Google : Execution Started
+2023-05-06 09:31:03,993 - TSL_Google - INFO - Test case starts here
+2023-05-06 09:31:03,994 - SuiteBase - INFO - Entered loadwebbrowser
+2023-05-06 09:31:04,067 - TSL_Google - INFO - TSL_Google :Reporting test data set line 1 as FAIL in excel.
+2023-05-06 09:31:31,475 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 09:31:31,851 - GoogleBase - INFO - All excel files are initialized successfully
+2023-05-06 09:31:31,911 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 09:31:31,928 - TSL_Google - INFO - TSL_Google : Execution Started
+2023-05-06 09:31:32,021 - TSL_Google - INFO - Test case starts here
+2023-05-06 09:31:32,023 - SuiteBase - INFO - Entered loadwebbrowser
+2023-05-06 09:31:32,042 - TSL_Google - INFO - TSL_Google :Reporting test data set line 1 as FAIL in excel.
+2023-05-06 09:33:55,972 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 09:33:56,519 - GoogleBase - INFO - All excel files are initialized successfully
+2023-05-06 09:33:56,593 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 09:33:56,611 - TSL_Google - INFO - TSL_Google : Execution Started
+2023-05-06 09:33:56,722 - TSL_Google - INFO - Test case starts here
+2023-05-06 09:33:56,727 - SuiteBase - INFO - Entered loadwebbrowser
+2023-05-06 09:34:04,618 - SuiteBase - INFO - Chrome driver instance loaded successfully
+2023-05-06 09:34:12,947 - TSL_Google - INFO - TSL_Google : Reporting test data set line 1 as PASS in excel
+2023-05-06 09:34:13,564 - PageFunctions - INFO - java.lang.NullPointerException: Cannot invoke "org.openxmlformats.schemas.wordprocessingml.x2006.main.CTPageMar.setLeft(java.math.BigInteger)" because "pageMar" is null
+2023-05-06 09:36:13,106 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 09:36:13,545 - GoogleBase - INFO - All excel files are initialized successfully
+2023-05-06 09:36:13,609 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 09:36:13,637 - TSL_Google - INFO - TSL_Google : Execution Started
+2023-05-06 09:36:13,730 - TSL_Google - INFO - Test case starts here
+2023-05-06 09:36:13,769 - TSL_Google - INFO - TSL_Google :Reporting test data set line 1 as FAIL in excel.
+2023-05-06 09:37:28,359 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 09:37:28,845 - GoogleBase - INFO - All excel files are initialized successfully
+2023-05-06 09:37:28,919 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 09:37:28,941 - TSL_Google - INFO - TSL_Google : Execution Started
+2023-05-06 09:37:29,041 - TSL_Google - INFO - Test case starts here
+2023-05-06 09:37:35,715 - SuiteBase - INFO - Chrome driver instance loaded successfully
+2023-05-06 09:37:39,625 - TSL_Google - INFO - TSL_Google : Reporting test data set line 1 as PASS in excel
+2023-05-06 09:37:40,401 - PageFunctions - INFO - java.lang.NullPointerException: Cannot invoke "org.openxmlformats.schemas.wordprocessingml.x2006.main.CTPageMar.setLeft(java.math.BigInteger)" because "pageMar" is null
+2023-05-06 09:48:37,659 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 09:48:38,291 - GoogleBase - INFO - All excel files are initialized successfully
+2023-05-06 09:48:38,381 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 09:48:38,415 - TSL_Google - INFO - TSL_Google : Execution Started
+2023-05-06 09:48:38,520 - TSL_Google - INFO - Test case starts here
+2023-05-06 09:48:55,991 - SuiteBase - INFO - Chrome driver instance loaded successfully
+2023-05-06 09:49:01,243 - TSL_Google - INFO - TSL_Google : Reporting test data set line 1 as PASS in excel
+2023-05-06 09:49:01,686 - PageFunctions - INFO - java.lang.NullPointerException: Cannot invoke "org.openxmlformats.schemas.wordprocessingml.x2006.main.CTPageMar.setLeft(java.math.BigInteger)" because "pageMar" is null
+2023-05-06 09:57:06,006 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 09:57:06,472 - GoogleBase - INFO - All excel files are initialized successfully
+2023-05-06 09:57:06,529 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 09:57:06,554 - TSL_Google - INFO - TSL_Google : Execution Started
+2023-05-06 09:57:06,651 - TSL_Google - INFO - Test case starts here
+2023-05-06 09:57:18,980 - TSL_Google - INFO - TSL_Google :Reporting test data set line 1 as FAIL in excel.
