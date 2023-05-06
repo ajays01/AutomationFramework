@@ -56,3 +56,11 @@
 2023-05-06 09:57:06,554 - TSL_Google - INFO - TSL_Google : Execution Started
 2023-05-06 09:57:06,651 - TSL_Google - INFO - Test case starts here
 2023-05-06 09:57:18,980 - TSL_Google - INFO - TSL_Google :Reporting test data set line 1 as FAIL in excel.
+2023-05-06 10:37:30,825 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 10:37:31,515 - GoogleBase - INFO - All excel files are initialized successfully
+2023-05-06 10:37:31,616 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-05-06 10:37:31,622 - TSL_Google - INFO - TSL_Google : Execution Started
+2023-05-06 10:37:31,830 - TSL_Google - INFO - Test case starts here
+2023-05-06 10:37:48,644 - SuiteBase - INFO - Chrome driver instance loaded successfully
+2023-05-06 10:37:56,211 - TSL_Google - INFO - TSL_Google : Reporting test data set line 1 as PASS in excel
+2023-05-06 10:37:58,946 - PageFunctions - INFO - java.lang.NullPointerException: Cannot invoke "org.openxmlformats.schemas.wordprocessingml.x2006.main.CTPageMar.setLeft(java.math.BigInteger)" because "pageMar" is null
