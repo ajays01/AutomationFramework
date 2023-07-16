@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TC_001"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.263">
+  <properties />
+  
+  
+            <testcase name="TSL_GoogleTest" time="3.263" classname="org.automation.googleHome.TSL_Google" />
+      
+</testsuite>

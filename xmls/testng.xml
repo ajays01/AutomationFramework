@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+
+    <listeners>
+<!--        <listener class-name="org.automation.utility.SuiteUtility"/>-->
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="org.automation.utility.ExtentReportNG"/>
+        <listener class-name="org.automation.ExtentUtility.TestListener"/>
+    </listeners>
+
+    <suite-files>
+        <suite-file path="google.xml"></suite-file>
+        <suite-file path="swagLabs.xml"></suite-file>
+    </suite-files>
+
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TC_001"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.724">
+  <properties />
+  
+  
+            <testcase name="TC_001Test" time="3.439" classname="org.automation.swagLabs.TC_001" />
+                <testcase name="TC_001Test" time="3.388" classname="org.automation.swagLabs.TC_001" />
+                <testcase name="TC_001Test" time="3.581" classname="org.automation.swagLabs.TC_001" />
+                <testcase name="TC_001Test" time="3.316" classname="org.automation.swagLabs.TC_001" />
+      
+</testsuite>
