@@ -1,0 +1,62 @@
+2023-07-17 12:01:03,967 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-07-17 12:01:04,138 - GoogleBase - INFO - All excel files are initialized successfully
+2023-07-17 12:01:04,172 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-07-17 12:01:04,175 - TSL_Google - INFO - TSL_Google : Execution Started
+2023-07-17 12:01:04,347 - TSL_Google - INFO - Test case starts here
+2023-07-17 12:01:06,403 - SuiteBase - INFO - Chrome driver instance loaded successfully
+2023-07-17 12:01:44,650 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-07-17 12:01:44,812 - GoogleBase - INFO - All excel files are initialized successfully
+2023-07-17 12:01:44,842 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-07-17 12:01:44,845 - TSL_Google - INFO - TSL_Google : Execution Started
+2023-07-17 12:01:44,987 - TSL_Google - INFO - Test case starts here
+2023-07-17 12:01:46,411 - SuiteBase - INFO - Chrome driver instance loaded successfully
+2023-07-17 12:01:47,984 - TSL_Google - INFO - TSL_Google : Reporting test data set line 1 as PASS in excel
+2023-07-17 12:01:48,198 - PageFunctions - INFO - java.lang.NullPointerException: Cannot invoke "org.openxmlformats.schemas.wordprocessingml.x2006.main.CTPageMar.setLeft(java.math.BigInteger)" because "pageMar" is null
+2023-07-17 12:01:49,617 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-07-17 12:01:49,623 - SwagLabsBase - INFO - All excel files are initialized successfully
+2023-07-17 12:01:49,630 - SuiteBase - INFO - Param.properties file loaded successfully
+2023-07-17 12:01:49,632 - TC_001 - INFO - TC_001 : Execution Started
+2023-07-17 12:01:49,641 - TC_001 - INFO - Test case starts here
+2023-07-17 12:01:50,449 - SuiteBase - INFO - Chrome driver instance loaded successfully
+2023-07-17 12:01:50,468 - LoginPage - INFO - Launching URL - https://www.saucedemo.com/
+2023-07-17 12:01:53,016 - LoginPage - INFO - Swag Labs
+2023-07-17 12:01:53,191 - PageFunctions - INFO - Text entered - 
+2023-07-17 12:01:53,191 - LoginPage - INFO - User Name entered successfully
+2023-07-17 12:01:53,333 - PageFunctions - INFO - Text entered - 
+2023-07-17 12:01:53,334 - LoginPage - INFO - Password entered successfully
+2023-07-17 12:01:53,637 - LoginPage - INFO - Clicked on login button
+2023-07-17 12:01:53,962 - TC_001 - INFO - TC_001 : Reporting test data set line 1 as PASS in excel
+2023-07-17 12:01:53,973 - PageFunctions - INFO - java.lang.NullPointerException: Cannot invoke "org.openxmlformats.schemas.wordprocessingml.x2006.main.CTPageMar.setLeft(java.math.BigInteger)" because "pageMar" is null
+2023-07-17 12:01:55,124 - TC_001 - INFO - Test case starts here
+2023-07-17 12:01:56,034 - SuiteBase - INFO - Chrome driver instance loaded successfully
+2023-07-17 12:01:56,036 - LoginPage - INFO - Launching URL - https://www.saucedemo.com/
+2023-07-17 12:01:58,006 - LoginPage - INFO - Swag Labs
+2023-07-17 12:01:58,318 - PageFunctions - INFO - Text entered - 
+2023-07-17 12:01:58,318 - LoginPage - INFO - User Name entered successfully
+2023-07-17 12:01:58,467 - PageFunctions - INFO - Text entered - 
+2023-07-17 12:01:58,467 - LoginPage - INFO - Password entered successfully
+2023-07-17 12:01:58,844 - LoginPage - INFO - Clicked on login button
+2023-07-17 12:01:59,314 - TC_001 - INFO - TC_001 : Reporting test data set line 2 as PASS in excel
+2023-07-17 12:01:59,321 - PageFunctions - INFO - java.lang.NullPointerException: Cannot invoke "org.openxmlformats.schemas.wordprocessingml.x2006.main.CTPageMar.setLeft(java.math.BigInteger)" because "pageMar" is null
+2023-07-17 12:02:00,460 - TC_001 - INFO - Test case starts here
+2023-07-17 12:02:01,327 - SuiteBase - INFO - Chrome driver instance loaded successfully
+2023-07-17 12:02:01,327 - LoginPage - INFO - Launching URL - https://www.saucedemo.com/
+2023-07-17 12:02:03,374 - LoginPage - INFO - Swag Labs
+2023-07-17 12:02:03,528 - PageFunctions - INFO - Text entered - 
+2023-07-17 12:02:03,528 - LoginPage - INFO - User Name entered successfully
+2023-07-17 12:02:03,715 - PageFunctions - INFO - Text entered - 
+2023-07-17 12:02:03,715 - LoginPage - INFO - Password entered successfully
+2023-07-17 12:02:04,033 - LoginPage - INFO - Clicked on login button
+2023-07-17 12:02:04,475 - TC_001 - INFO - TC_001 : Reporting test data set line 3 as PASS in excel
+2023-07-17 12:02:04,482 - PageFunctions - INFO - java.lang.NullPointerException: Cannot invoke "org.openxmlformats.schemas.wordprocessingml.x2006.main.CTPageMar.setLeft(java.math.BigInteger)" because "pageMar" is null
+2023-07-17 12:02:05,611 - TC_001 - INFO - Test case starts here
+2023-07-17 12:02:06,423 - SuiteBase - INFO - Chrome driver instance loaded successfully
+2023-07-17 12:02:06,425 - LoginPage - INFO - Launching URL - https://www.saucedemo.com/
+2023-07-17 12:02:08,739 - LoginPage - INFO - Swag Labs
+2023-07-17 12:02:08,916 - PageFunctions - INFO - Text entered - 
+2023-07-17 12:02:08,916 - LoginPage - INFO - User Name entered successfully
+2023-07-17 12:02:09,124 - PageFunctions - INFO - Text entered - 
+2023-07-17 12:02:09,125 - LoginPage - INFO - Password entered successfully
+2023-07-17 12:02:09,497 - LoginPage - INFO - Clicked on login button
+2023-07-17 12:02:09,829 - TC_001 - INFO - TC_001 : Reporting test data set line 4 as PASS in excel
+2023-07-17 12:02:09,836 - PageFunctions - INFO - java.lang.NullPointerException: Cannot invoke "org.openxmlformats.schemas.wordprocessingml.x2006.main.CTPageMar.setLeft(java.math.BigInteger)" because "pageMar" is null
