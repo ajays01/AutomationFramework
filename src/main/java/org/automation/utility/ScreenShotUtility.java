@@ -16,9 +16,11 @@ import java.util.Date;
 
 public class ScreenShotUtility implements ITestListener {
 
-    public void onStart(ITestContext tc){}
+    //This method will execute before starting of Test Suite
+    public void onStart(ITestContext tr){}
 
-    public void onFinish(ITestContext tc){}
+    //This method will execute once the TestSuite is finished
+    public void onFinish(ITestContext tr){}
 
     public void onTestSuccess(ITestResult tr){
         if (SuiteBase.Param.getProperty("screenShotOnPass").equalsIgnoreCase("yes")){
@@ -37,23 +39,25 @@ public class ScreenShotUtility implements ITestListener {
 
     public void onTestSkipped(ITestResult tr){}
 
+    public void onTestFailedButWIthSuccessPercentage(ITestResult tr){}
+
 
     public void captureScreenshot(ITestResult result, String status){
         String destDir = "";
-        String passFailMethod = result.getName().getClass().getSimpleName()+"."+result.getMethod().getMethodName();
+        String passfailMethod = result.getMethod().getRealClass().getSimpleName()+"."+result.getMethod().getMethodName();
         //To capture screenshot
         File scrFile = ((TakesScreenshot)SuiteBase.driver).getScreenshotAs(OutputType.FILE);
         DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy__hh_mm__ssaa");
-        String dt = dateFormat.format(new Date()).split("__")[0];
+//        String dt = dateFormat.format(new Date()).split("__")[0];
         if(status.equalsIgnoreCase("fail")){
-            destDir = "screenshots/Failures/"+dt;
+            destDir = "screenshots/Failures";
         }
         else if(status.equalsIgnoreCase("pass")){
-            destDir = destDir = "screenshots/Success/"+dt;
+            destDir = "screenshots/Success";
         }
 
         new File(destDir).mkdirs();
-        String destFile = passFailMethod+" - "+dateFormat.format(new Date()+".png");
+        String destFile = passfailMethod+" - "+dateFormat.format(new Date()+".png");
 
         try {
             FileUtils.copyFile(scrFile,new File(destDir+"/"+destFile));

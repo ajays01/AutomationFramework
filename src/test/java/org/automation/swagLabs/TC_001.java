@@ -1,11 +1,12 @@
 package org.automation.swagLabs;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.automation.googleHome.GoogleBase;
 import org.automation.pages.login.LoginPage;
 import org.automation.utility.PageFunctions;
 import org.automation.utility.Read_XLS;
 import org.automation.utility.SuiteUtility;
+import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.SkipException;
 import org.testng.annotations.*;
@@ -86,8 +87,15 @@ public class TC_001 extends SwagLabsBase {
         loadWebBrowser();
         obj_LoginPage = new LoginPage(driver);
         obj_LoginPage.launchApplication(caseId);
-        obj_LoginPage.login(Param.getProperty("userName"),Param.getProperty("password"),caseId);
+        obj_LoginPage.login(Param.getProperty("userName1"),Param.getProperty("password1"),caseId);
         PageFunctions.takeSnapShotWithText(driver,caseId,"");
+        String title = driver.getTitle();
+        Assert.assertEquals(title,"Swag Labs","Title not matched");
+
+        PageFunctions.clickElement(driver.findElement(By.xpath("//*[text()='Open Menu']")));
+        PageFunctions.clickElement(driver.findElement(By.xpath("//*[text()='Logout']")));
+
+
 
 
         //**************************************Test Execution Completed****************************************

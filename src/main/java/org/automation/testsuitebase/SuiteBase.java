@@ -10,9 +10,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
+import java.text.SimpleDateFormat;
+import java.util.GregorianCalendar;
 import java.util.Properties;
 
 public class SuiteBase {
@@ -70,6 +70,32 @@ public class SuiteBase {
             Add_log.info("NullPointerException");
         }
         ExistingChromeBrowser = null;
+    }
+
+    public static void updateTestResult(String index,  String CaseName, String result) throws IOException {
+        String startTime = new SimpleDateFormat("dd-MM-yyyy_HH-ss").format(new GregorianCalendar().getTime());
+        Add_log.info("Report Started at - "+startTime);
+
+        String reportFile = System.getProperty("user.dir")+"//target//customizedReport//ExecutionReport.html";
+
+        File file = new File(reportFile);
+        Add_log.info(file.exists());
+
+        if(!file.exists()){
+            FileWriter fw = new FileWriter(file.getAbsoluteFile(),true);
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write("<html>" + "\n");
+            bw.write("<head><title>" + "Test Execution Report" + "</title>" + "\n");
+            bw.write("</head>" + "\n");
+            bw.write("<body>");
+            bw.write("<font faces 'Tahoma'sizes '2'›" + "\n");
+            bw.write("<u><h1 align='center>" + "Test execution report" + "</hi>‹/u›" + "\n");
+            bw. flush();
+            bw.close();
+        }
+        BufferedWriter bw1 = new BufferedWriter(new FileWriter(file,true));
+
+
     }
 
 

@@ -7,6 +7,7 @@ import org.automation.utility.SuiteUtility;
 import org.testng.Reporter;
 import org.testng.SkipException;
 import org.testng.annotations.*;
+import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import javax.xml.crypto.Data;
@@ -62,7 +63,7 @@ public class Test1 extends TestBase {
         Runtime.getRuntime().exec("taskkill /F /IM iexplorer.exe");
     }
 
-    //Accepts 4 column's String of data in every iteration.
+    //Accepts 4 columns String of data in every iteration.
 
     @Test(dataProvider = "Test1Data")
     public void Test1Test(String sINo, String caseId) throws IOException {

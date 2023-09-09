@@ -1,8 +1,0 @@
-2023-06-17 17:22:04,091 - SuiteBase - INFO - Param.properties file loaded successfully
-2023-06-17 17:22:04,676 - GoogleBase - INFO - All excel files are initialized successfully
-2023-06-17 17:22:04,729 - SuiteBase - INFO - Param.properties file loaded successfully
-2023-06-17 17:22:04,828 - TSL_Google - INFO - TSL_Google : Execution Started
-2023-06-17 17:22:04,932 - TSL_Google - INFO - Test case starts here
-2023-06-17 17:22:13,205 - SuiteBase - INFO - Chrome driver instance loaded successfully
-2023-06-17 17:22:15,711 - TSL_Google - INFO - TSL_Google : Reporting test data set line 1 as PASS in excel
-2023-06-17 17:22:16,052 - PageFunctions - INFO - java.lang.NullPointerException: Cannot invoke "org.openxmlformats.schemas.wordprocessingml.x2006.main.CTPageMar.setLeft(java.math.BigInteger)" because "pageMar" is null
