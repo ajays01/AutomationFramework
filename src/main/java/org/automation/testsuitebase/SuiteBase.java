@@ -26,17 +26,15 @@ public class SuiteBase {
 
     public void init() throws IOException {
         //To initialize logger service
-        System.setProperty("log4j.configurationFile", System.getProperty("user.dir") + "/src/main/java/org/automation/logreporting/log4j2.xml");
+        System.setProperty("log4j.configurationFile", System.getProperty("user.dir") + "/logreporting/log4j2.xml");
         Add_log = LogManager.getLogger();
-
         //To initialize Param.properties file
         Param = new Properties();
-        FileInputStream fip = new FileInputStream(System.getProperty("user.dir") + "//src//main//java//org//automation//property//Param.properties");
+        FileInputStream fip = new FileInputStream(System.getProperty("user.dir") + "//property//Param.properties");
         Param.load(fip);
         Add_log.info("Param.properties file loaded successfully");
-
         //Initialize SuiteList
-        TestSuiteListExcel = new Read_XLS(System.getProperty("user.dir") + "\\src\\main\\java\\org\\automation\\excelfiles\\TestSuiteList.xls");
+        TestSuiteListExcel = new Read_XLS(System.getProperty("user.dir") + "\\excelfiles\\TestSuiteList.xls");
     }
 
     public void loadWebBrowser() {
@@ -57,8 +55,6 @@ public class SuiteBase {
             driver = new EdgeDriver();
             ExistingEdgeBrowser = driver;
         }
-
-
     }
 
     public void closeWebBrowser() {

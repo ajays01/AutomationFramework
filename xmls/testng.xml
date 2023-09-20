@@ -13,6 +13,7 @@
     <suite-files>
         <suite-file path="google.xml"></suite-file>
         <suite-file path="swagLabs.xml"></suite-file>
+        <suite-file path="orangeHrm.xml"></suite-file>
     </suite-files>
 
 </suite>

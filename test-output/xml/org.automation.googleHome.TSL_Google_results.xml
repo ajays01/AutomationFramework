@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3.235">
+           time="5.825">
   <properties />
   
   
-            <testcase name="TSL_GoogleTest" time="3.235" classname="org.automation.googleHome.TSL_Google" />
+            <testcase name="TSL_GoogleTest" time="5.825" classname="org.automation.googleHome.TSL_Google" />
       
 </testsuite>

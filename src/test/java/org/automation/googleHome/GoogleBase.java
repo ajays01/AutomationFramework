@@ -22,7 +22,7 @@ public class GoogleBase extends SuiteBase {
         init();
         //Please change file's path strings below if you have stored them at location other than below
         //Initializing Test Suite One(suiteone.xls) File Path Using constructor of Read_XLS utility class
-        TestCaseListExcelOne = new Read_XLS(System.getProperty("user.dir")+"\\src\\main\\java\\org\\automation\\excelfiles\\google.xls");
+        TestCaseListExcelOne = new Read_XLS(System.getProperty("user.dir")+"\\excelfiles\\google.xls");
         //Below given syntax will insert log in applog.log file
         Add_log.info("All excel files are initialized successfully");
 

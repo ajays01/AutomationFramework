@@ -10,6 +10,7 @@ import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFRun;
 import org.automation.pages.BasePage;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTPageMar;
 import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTSectPr;
@@ -54,6 +55,7 @@ public class PageFunctions extends BasePage {
     }
 
     public static void enterText(WebElement element, String text){
+        //wait.until(ExpectedConditions.visibilityOf(element));
         try{
             jsClick(element);
             element.clear();

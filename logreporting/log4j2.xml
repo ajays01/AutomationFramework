@@ -23,7 +23,7 @@
         </RollingFile>
     </Appenders>
     <Loggers>
-        <Root level="INFO">
+        <Root level="IN   FO">
             <AppenderRef ref="consoleAppender"/>
             <AppenderRef ref="fileAppender"/>
         </Root>

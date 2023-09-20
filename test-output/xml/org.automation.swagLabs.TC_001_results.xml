@@ -1,227 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="TC_001"
            tests="4"
-           failures="4"
+           failures="1"
            errors="0"
-           skipped="0"
-           time="8.774">
+           skipped="3"
+           time="3.067">
   <properties />
-            <testcase name="TC_001Test" time="2.146" classname="org.automation.swagLabs.TC_001">
+            <testcase name="TC_001Test" time="3.067" classname="org.automation.swagLabs.TC_001">
                 <failure type="org.openqa.selenium.NoSuchElementException"
                   message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Open Menu&apos;]&quot;}
-  (Session info: chrome=116.0.5845.180)
+  (Session info: chrome=116.0.5845.188)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [02e7dac37d06c195b4dae941b45a9f81, findElement {using=xpath, value=//*[text()=&apos;Open Menu&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\AJAY\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54597/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 02e7dac37d06c195b4dae941b45a9f81"
+Command: [5b398322e4b55dfc7d3e94aa9ca10667, findElement {using=xpath, value=//*[text()=&apos;Open Menu&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\AJAY\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57546}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57546/devtoo..., se:cdpVersion: 116.0.5845.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b398322e4b55dfc7d3e94aa9ca10667"
               >
 <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Open Menu']"}
-  (Session info: chrome=116.0.5845.180)
+  (Session info: chrome=116.0.5845.188)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [02e7dac37d06c195b4dae941b45a9f81, findElement {using=xpath, value=//*[text()='Open Menu']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\AJAY\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54597/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 02e7dac37d06c195b4dae941b45a9f81
-  java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-  org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-  org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-  org.automation.swagLabs.TC_001.TC_001Test(TC_001.java:95)
-  java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-  java.base/java.lang.reflect.Method.invoke(Method.java:578)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-  org.testng.TestRunner.privateRun(TestRunner.java:848)
-  org.testng.TestRunner.run(TestRunner.java:621)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-  org.testng.SuiteRunner.run(SuiteRunner.java:336)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1275)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-  org.testng.TestNG.runSuites(TestNG.java:1114)
-  org.testng.TestNG.run(TestNG.java:1082)
-  org.automation.TestRunner.main(TestRunner.java:25)
-]]>
-      </failure>
-
-          </testcase>
-            <testcase name="TC_001Test" time="2.284" classname="org.automation.swagLabs.TC_001">
-                <failure type="org.openqa.selenium.NoSuchElementException"
-                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Open Menu&apos;]&quot;}
-  (Session info: chrome=116.0.5845.180)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0bf714b6a38e29751baf50e4cf23a02, findElement {using=xpath, value=//*[text()=&apos;Open Menu&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\AJAY\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54521/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a0bf714b6a38e29751baf50e4cf23a02"
-              >
-<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Open Menu']"}
-  (Session info: chrome=116.0.5845.180)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0bf714b6a38e29751baf50e4cf23a02, findElement {using=xpath, value=//*[text()='Open Menu']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\AJAY\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54521/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a0bf714b6a38e29751baf50e4cf23a02
-  java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-  org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-  org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-  org.automation.swagLabs.TC_001.TC_001Test(TC_001.java:95)
-  java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-  java.base/java.lang.reflect.Method.invoke(Method.java:578)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-  org.testng.TestRunner.privateRun(TestRunner.java:848)
-  org.testng.TestRunner.run(TestRunner.java:621)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-  org.testng.SuiteRunner.run(SuiteRunner.java:336)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1275)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-  org.testng.TestNG.runSuites(TestNG.java:1114)
-  org.testng.TestNG.run(TestNG.java:1082)
-  org.automation.TestRunner.main(TestRunner.java:25)
-]]>
-      </failure>
-
-          </testcase>
-            <testcase name="TC_001Test" time="2.160" classname="org.automation.swagLabs.TC_001">
-                <failure type="org.openqa.selenium.NoSuchElementException"
-                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Open Menu&apos;]&quot;}
-  (Session info: chrome=116.0.5845.180)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2c7ad982f33eb8e8399cdc659bc5124d, findElement {using=xpath, value=//*[text()=&apos;Open Menu&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\AJAY\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54548/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2c7ad982f33eb8e8399cdc659bc5124d"
-              >
-<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Open Menu']"}
-  (Session info: chrome=116.0.5845.180)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2c7ad982f33eb8e8399cdc659bc5124d, findElement {using=xpath, value=//*[text()='Open Menu']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\AJAY\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54548/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2c7ad982f33eb8e8399cdc659bc5124d
-  java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-  org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-  org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-  org.automation.swagLabs.TC_001.TC_001Test(TC_001.java:95)
-  java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-  java.base/java.lang.reflect.Method.invoke(Method.java:578)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-  org.testng.TestRunner.privateRun(TestRunner.java:848)
-  org.testng.TestRunner.run(TestRunner.java:621)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-  org.testng.SuiteRunner.run(SuiteRunner.java:336)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1275)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-  org.testng.TestNG.runSuites(TestNG.java:1114)
-  org.testng.TestNG.run(TestNG.java:1082)
-  org.automation.TestRunner.main(TestRunner.java:25)
-]]>
-      </failure>
-
-          </testcase>
-            <testcase name="TC_001Test" time="2.184" classname="org.automation.swagLabs.TC_001">
-                <failure type="org.openqa.selenium.NoSuchElementException"
-                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Open Menu&apos;]&quot;}
-  (Session info: chrome=116.0.5845.180)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6b3a06cdf3c7cc3c56f9518ae582d6db, findElement {using=xpath, value=//*[text()=&apos;Open Menu&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\AJAY\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54571}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54571/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6b3a06cdf3c7cc3c56f9518ae582d6db"
-              >
-<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Open Menu']"}
-  (Session info: chrome=116.0.5845.180)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6b3a06cdf3c7cc3c56f9518ae582d6db, findElement {using=xpath, value=//*[text()='Open Menu']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\AJAY\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54571}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54571/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6b3a06cdf3c7cc3c56f9518ae582d6db
+Command: [5b398322e4b55dfc7d3e94aa9ca10667, findElement {using=xpath, value=//*[text()='Open Menu']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\AJAY\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57546}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57546/devtoo..., se:cdpVersion: 116.0.5845.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b398322e4b55dfc7d3e94aa9ca10667
   java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
   java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
   java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -267,6 +72,15 @@ Session ID: 6b3a06cdf3c7cc3c56f9518ae582d6db
 
           </testcase>
   
+            <testcase name="TC_001Test" time="0.0" classname="org.automation.swagLabs.TC_001">
+          <skipped />
+    </testcase>
+            <testcase name="TC_001Test" time="0.0" classname="org.automation.swagLabs.TC_001">
+          <skipped />
+    </testcase>
+            <testcase name="TC_001Test" time="0.0" classname="org.automation.swagLabs.TC_001">
+          <skipped />
+    </testcase>
   
   
 </testsuite>
