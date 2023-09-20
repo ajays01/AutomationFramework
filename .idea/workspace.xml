@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ea48eef-f3a1-47c1-8dbf-4f4bb907bf8b" name="Changes" comment="Added TestRunner class and extent reports">
+      <change beforePath="$PROJECT_DIR$/${dir}/app-17-07-2023-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${dir}/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/${dir}/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestReport/Test-Automaton-Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestReport/Test-Automaton-Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-09-Sep-2023__07_25_25PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-09-Sep-2023__07_25_29PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-09-Sep-2023__07_31_10PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-09-Sep-2023__07_31_14PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-09-Sep-2023__07_34_57PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-09-Sep-2023__07_35_01PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-09-Sep-2023__07_40_39PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-09-Sep-2023__07_40_43PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__05_19_17pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__05_39_58pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__05_39_59pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__05_41_40pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__05_42_30PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__05_46_33PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__06_04_54PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__06_06_32pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__06_06_33pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__06_07_02pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__06_07_03pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__06_07_23PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__06_08_03PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__06_08_08PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__06_08_09PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__06_08_59PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__06_09_04PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__09_36_39PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__09_37_26PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__09_38_52PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__09_40_22PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__09_40_28PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__09_48_20PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__09_48_59PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-16-Jul-2023__09_49_45PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-17-Jul-2023__12_01_07PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-17-Jul-2023__12_01_47PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-17-Jul-2023__12_01_53PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-22-Jul-2023__06_08_00pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_001/TC_001-22-Jul-2023__06_08_01pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_002/TC_002-09-Sep-2023__07_25_33PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_002/TC_002-09-Sep-2023__07_31_18PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_002/TC_002-09-Sep-2023__07_35_04PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_002/TC_002-09-Sep-2023__07_40_46PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_002/TC_002-16-Jul-2023__06_09_09PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_002/TC_002-16-Jul-2023__09_40_33PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_002/TC_002-17-Jul-2023__12_01_58PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_002/TC_002-17-Jul-2023__12_01_59PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_002/TC_002-22-Jul-2023__06_08_04pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_002/TC_002-22-Jul-2023__06_08_05pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_003/TC_003-09-Sep-2023__07_25_36PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_003/TC_003-09-Sep-2023__07_31_21PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_003/TC_003-09-Sep-2023__07_35_07PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_003/TC_003-09-Sep-2023__07_40_49PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_003/TC_003-09-Sep-2023__07_40_50PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_003/TC_003-16-Jul-2023__06_09_13PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_003/TC_003-16-Jul-2023__06_09_14PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_003/TC_003-16-Jul-2023__09_40_38PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_003/TC_003-17-Jul-2023__12_02_03PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_003/TC_003-17-Jul-2023__12_02_04PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_003/TC_003-22-Jul-2023__06_08_09pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_004/TC_004-09-Sep-2023__07_25_40PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_004/TC_004-09-Sep-2023__07_31_24PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_004/TC_004-09-Sep-2023__07_31_25PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_004/TC_004-09-Sep-2023__07_35_10PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_004/TC_004-09-Sep-2023__07_35_11PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_004/TC_004-09-Sep-2023__07_40_53PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_004/TC_004-16-Jul-2023__06_09_18PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_004/TC_004-16-Jul-2023__09_40_42PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_004/TC_004-17-Jul-2023__12_02_09PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_004/TC_004-22-Jul-2023__06_08_12pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/TC_004/TC_004-22-Jul-2023__06_08_13pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/automation/excelfiles/TestSuiteList.xls" beforeDir="false" afterPath="$PROJECT_DIR$/excelfiles/TestSuiteList.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/automation/excelfiles/google.xls" beforeDir="false" afterPath="$PROJECT_DIR$/excelfiles/google.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/automation/excelfiles/swagLabs.xls" beforeDir="false" afterPath="$PROJECT_DIR$/excelfiles/swagLabs.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/automation/excelfiles/test.xls" beforeDir="false" afterPath="$PROJECT_DIR$/excelfiles/test.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/automation/logreporting/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logreporting/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/automation/property/Param.properties" beforeDir="false" afterPath="$PROJECT_DIR$/property/Param.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/automation/testsuitebase/SuiteBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/automation/testsuitebase/SuiteBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/automation/utility/PageFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/automation/utility/PageFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/automation/utility/TestNGEmailableReport2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/googleHome/GoogleBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/googleHome/GoogleBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/swagLabs/SwagLabsBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/swagLabs/SwagLabsBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/test/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/test/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/automation/testsuitebase/SuiteBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/automation/testsuitebase/SuiteBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/automation/utility/PageFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/automation/utility/PageFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/automation/googleHome/GoogleBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/automation/googleHome/GoogleBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/automation/swagLabs/SwagLabsBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/automation/swagLabs/SwagLabsBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/automation/test/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/automation/test/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Extent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/google/TC_001.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/google/TC_001.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/google/TC_001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/google/TC_001.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite3_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite3_test1_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-org.automation.googleHome.TSL_Google.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-org.automation.googleHome.TSL_Google.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-org.automation.swagLabs.TC_001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-org.automation.swagLabs.TC_001.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/google/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/google/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/google/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/google/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/swagLabs/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/swagLabs/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/swagLabs/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/swagLabs/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/swagLabs/TC_001.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/swagLabs/TC_001.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/swagLabs/TC_001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/swagLabs/TC_001.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/org.automation.googleHome.TSL_Google_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/org.automation.googleHome.TSL_Google_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/org.automation.swagLabs.TC_001_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/org.automation.swagLabs.TC_001_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmls/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmls/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2RKU45Avh2MwNrU05chvqDJPZ3N" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_directory_selection": "D:/Ajay/Automation Development/Data Driven FW/src/test/java",
+    "last_opened_file_path": "D:/Ajay/Automation Development/Data Driven FW/xmls",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.automation.utility" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Ajay\Automation Development\Data Driven FW\xmls" />
+      <recent name="D:\Ajay\Automation Development\Data Driven FW\excelfiles" />
+      <recent name="D:\Ajay\Automation Development\Data Driven FW" />
+      <recent name="D:\Ajay\Automation Development\Data Driven FW\src\main\java\org\automation\excelfiles" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.automation.orangeHrm" />
+      <recent name="org.automation.swagLabs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestRunner">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.automation.test.Test" />
+      <module name="automationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.automation.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.automation.TestRunner" />
+      <module name="automationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.automation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_Login (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.automation.orangeHrm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.automation.orangeHrm" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.orangeHrm.TC_Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.automation.orangeHrm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.automation.orangeHrm" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.orangeHrm.TC_Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.automation.orangeHrm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.automation.orangeHrm" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.orangeHrm.TC_Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_Login.TC_LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.automation.orangeHrm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.automation.orangeHrm" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.orangeHrm.TC_Login" />
+      <option name="METHOD_NAME" value="TC_LoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestRunner" />
+        <item itemvalue="TestNG.TC_Login.TC_LoginTest" />
+        <item itemvalue="TestNG.TC_Login" />
+        <item itemvalue="TestNG.TC_Login (1)" />
+        <item itemvalue="TestNG.TC_Login (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ea48eef-f3a1-47c1-8dbf-4f4bb907bf8b" name="Changes" comment="" />
+      <created>1686998073018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686998073018</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added TestRunner class and extent reports">
+      <option name="closed" value="true" />
+      <created>1694268980455</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694268980455</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added TestRunner class and extent reports">
+      <option name="closed" value="true" />
+      <created>1694269024588</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694269024588</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added TestRunner class and extent reports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added TestRunner class and extent reports" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/automation/testsuitebase/SuiteBase.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
