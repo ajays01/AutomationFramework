@@ -11,7 +11,7 @@
     <classes>
       <class name="org.automation.swagLabs.TC_001">
         <methods>
-          <include name="TC_001Test" invocation-numbers="0 1 2 3"/>
+          <include name="TC_001Test"/>
           <include name="checkSuiteToRun"/>
           <include name="checkCaseToRun"/>
           <include name="closeBrowser"/>

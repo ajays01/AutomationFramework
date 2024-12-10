@@ -12,7 +12,7 @@
 <body>
 <h1>TC_001</h1>
 <p>
-  Test duration: 16.552s
+  Test duration: 0.050s
 </p>
 
 
@@ -28,50 +28,26 @@
                   TC_001Test
       </td>
   <td class="duration">
-    2.889s
+    0.000s
   </td>
   <td class="result">
         
-          <i>Method arguments: </i><span class="arguments">"2", "TC_002", "asas"</span><br />
     
         
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Open Menu&apos;]&quot;}<br/>
-&nbsp; (Session info: chrome=116.0.5845.180)<br/>
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception<br/>
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;<br/>
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Command: [696813f223a62f8b5348601179436c9c, findElement {using=xpath, value=//*[text()=&apos;Open Menu&apos;]}]<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\AJAY\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59407}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59407/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
-Session ID: 696813f223a62f8b5348601179436c9c</b></a><br />
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke &quot;org.automation.utility.Read_XLS.retrieveTestData(String)&quot; because &quot;xls&quot; is null</b></a><br />
     <div class="stackTrace" id="exception-0">
-              java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)<br />
-              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
-              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)<br />
-              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br />
-              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)<br />
-              org.automation.swagLabs.TC_001.TC_001Test(TC_001.java:95)<br />
-              java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:578)<br />
-              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
-              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
-              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
-              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)<br />
+              org.testng.internal.Parameters.handleParameters(Parameters.java:803)<br />
+              org.testng.internal.Parameters.handleParameters(Parameters.java:728)<br />
+              org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)<br />
+              org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)<br />
               org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
               org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
               org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br />
               org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
               org.testng.TestRunner.run(TestRunner.java:621)<br />
               org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
@@ -88,239 +64,57 @@ Session ID: 696813f223a62f8b5348601179436c9c</b></a><br />
               org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)<br />
               org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
               org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)<br />
-              java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:578)<br />
+              java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:580)<br />
               org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)<br />
               org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)<br />
               org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)<br />
               org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)<br />
               org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_001Test
-      </td>
-  <td class="duration">
-    2.782s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"4", "TC_004", "asas"</span><br />
-    
-        
-
-        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Open Menu&apos;]&quot;}<br/>
-&nbsp; (Session info: chrome=116.0.5845.180)<br/>
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception<br/>
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;<br/>
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Command: [3a20709f56178553a496935abd2ecb18, findElement {using=xpath, value=//*[text()=&apos;Open Menu&apos;]}]<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\AJAY\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59451}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59451/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
-Session ID: 3a20709f56178553a496935abd2ecb18</b></a><br />
-    <div class="stackTrace" id="exception-1">
-              java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)<br />
-              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
-              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)<br />
-              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br />
-              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)<br />
-              org.automation.swagLabs.TC_001.TC_001Test(TC_001.java:95)<br />
-              java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:578)<br />
-              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
-              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
-              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
-              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
-              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
-              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
-              org.testng.TestRunner.run(TestRunner.java:621)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1275)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1114)<br />
-              org.testng.TestNG.run(TestNG.java:1082)<br />
-              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)<br />
-              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
-              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)<br />
-              java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:578)<br />
-              org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)<br />
-              org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)<br />
-              org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_001Test
-      </td>
-  <td class="duration">
-    2.827s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"3", "TC_003", "asas"</span><br />
-    
-        
-
-        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Open Menu&apos;]&quot;}<br/>
-&nbsp; (Session info: chrome=116.0.5845.180)<br/>
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception<br/>
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;<br/>
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Command: [d5cc6ee6f725033ba6fad07f8d1a54b1, findElement {using=xpath, value=//*[text()=&apos;Open Menu&apos;]}]<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\AJAY\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59427/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
-Session ID: d5cc6ee6f725033ba6fad07f8d1a54b1</b></a><br />
-    <div class="stackTrace" id="exception-2">
-              java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)<br />
-              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
-              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)<br />
-              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br />
-              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)<br />
-              org.automation.swagLabs.TC_001.TC_001Test(TC_001.java:95)<br />
-              java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:578)<br />
-              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
-              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
-              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
-              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
-              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
-              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
-              org.testng.TestRunner.run(TestRunner.java:621)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1275)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1114)<br />
-              org.testng.TestNG.run(TestNG.java:1082)<br />
-              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)<br />
-              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
-              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)<br />
-              java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:578)<br />
-              org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)<br />
-              org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)<br />
-              org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_001Test
-      </td>
-  <td class="duration">
-    3.183s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"1", "TC_001", "asas"</span><br />
-    
-        
-
-        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Open Menu&apos;]&quot;}<br/>
-&nbsp; (Session info: chrome=116.0.5845.180)<br/>
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception<br/>
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;<br/>
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Command: [5979bc845d06074fa0c6cf9b5625c20b, findElement {using=xpath, value=//*[text()=&apos;Open Menu&apos;]}]<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\AJAY\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59383}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59383/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
-Session ID: 5979bc845d06074fa0c6cf9b5625c20b</b></a><br />
-    <div class="stackTrace" id="exception-3">
-              java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)<br />
-              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
-              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)<br />
-              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br />
-              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)<br />
-              org.automation.swagLabs.TC_001.TC_001Test(TC_001.java:95)<br />
-              java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:578)<br />
-              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
-              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
-              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
-              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
-              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
-              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
-              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
-              org.testng.TestRunner.run(TestRunner.java:621)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1275)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1114)<br />
-              org.testng.TestNG.run(TestNG.java:1082)<br />
-              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)<br />
-              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
-              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)<br />
-              java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:578)<br />
-              org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)<br />
-              org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)<br />
-              org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)<br />
-                </div>
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">java.lang.NullPointerException: Cannot invoke &quot;org.automation.utility.Read_XLS.retrieveTestData(String)&quot; because &quot;xls&quot; is null</a><br />
+        <div class="stackTrace" id="exception-1">
+                      org.automation.utility.SuiteUtility.GetTestDataUtility(SuiteUtility.java:21)<br />
+                      org.automation.swagLabs.TC_001.TC_001Data(TC_001.java:145)<br />
+                      java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br />
+                      java.base/java.lang.reflect.Method.invoke(Method.java:580)<br />
+                      org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+                      org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)<br />
+                      org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)<br />
+                      org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)<br />
+                      org.testng.internal.Parameters.handleParameters(Parameters.java:803)<br />
+                      org.testng.internal.Parameters.handleParameters(Parameters.java:728)<br />
+                      org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)<br />
+                      org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)<br />
+                      org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)<br />
+                      org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
+                      org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+                      org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+                      java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+                      org.testng.TestRunner.run(TestRunner.java:621)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1275)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+                      org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+                      org.testng.TestNG.run(TestNG.java:1082)<br />
+                      org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)<br />
+                      org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
+                      org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)<br />
+                      java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br />
+                      java.base/java.lang.reflect.Method.invoke(Method.java:580)<br />
+                      org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)<br />
+                      org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)<br />
+                      org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)<br />
+                      org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)<br />
+                      org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)<br />
+                  </div>
+          </div>
       </td>
 </tr>
       </table>

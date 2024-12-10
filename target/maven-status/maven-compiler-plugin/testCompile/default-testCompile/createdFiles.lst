@@ -1,5 +1,7 @@
+org\automation\orangeHrm\orangeHrmBase.class
 org\automation\TestRunner.class
 org\automation\googleHome\TSL_Google.class
+org\automation\orangeHrm\TC_Login.class
 org\automation\test\Test1.class
 org\automation\googleHome\GoogleBase.class
 org\automation\swagLabs\TC_001.class

@@ -1,12 +1,13 @@
 org\automation\pages\BasePage.class
-org\automation\utility\Read_XLS.class
 org\automation\ExtentUtility\ExtentManager.class
 org\automation\ExtentUtility\TestListener.class
-org\automation\utility\ScreenShotUtility.class
-org\automation\utility\SuiteUtility.class
 org\automation\testsuitebase\SuiteBase.class
 org\automation\utility\PageFunctions.class
+org\automation\pages\googleHome\GooglePOF.class
+org\automation\utility\Read_XLS.class
+org\automation\pages\orangeHrm\LoginPage.class
+org\automation\utility\ScreenShotUtility.class
+org\automation\utility\SuiteUtility.class
 org\automation\utility\ExtentReportNG.class
 org\automation\ExtentUtility\ExtentTestManager.class
 org\automation\pages\login\LoginPage.class
-org\automation\pages\googleHome\GooglePOF.class
