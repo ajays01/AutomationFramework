@@ -87,7 +87,7 @@ public class TC_001 extends SwagLabsBase {
         loadWebBrowser();
         obj_LoginPage = new LoginPage(driver);
         obj_LoginPage.launchApplication(caseId);
-        obj_LoginPage.login(Param.getProperty("userName1"),Param.getProperty("password1"),caseId);
+        obj_LoginPage.login(Param.getProperty("userName"),Param.getProperty("password"),caseId);
         PageFunctions.takeSnapShotWithText(driver,caseId,"");
         String title = driver.getTitle();
         Assert.assertEquals(title,"Swag Labs","Title not matched");
